@@ -1,4 +1,5 @@
 .data
 .idea
+dist/*
 src/.env
 src/node_modules

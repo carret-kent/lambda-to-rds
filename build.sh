@@ -27,7 +27,7 @@ rm -f "$ORIGIN/dist/.env.local"
 
 docker run --rm -v "$ORIGIN/dist":/var/task lambci/lambda:build-nodejs12.x npm i
 
-cd dist
+cd ./dist
 zip -r dist *
 mv "$ORIGIN/dist/dist.zip" "$ORIGIN/dist.zip"
 
